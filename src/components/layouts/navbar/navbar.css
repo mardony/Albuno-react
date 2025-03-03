@@ -1,0 +1,26 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(217, 79, 15);
+    padding: 10px 20px;
+    width: 100%;
+}
+
+nav img {
+    width: 50px;
+    /* Ajusta según sea necesario */
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+nav ul li {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
