@@ -71,4 +71,13 @@ export const products = [
         category: "juego",
         imagenURL: "https://res.cloudinary.com/dyfyvybx4/image/upload/v1740758027/Juegos04_muoxge.png"
     },
+    {
+        id: "9",
+        title: "Bon de Colores",
+        price: 23.99,
+        stock: 33,
+        description: "Papel Bon, color verde agua de 75gr. contiene 500unidades.",
+        category: "papeleria",
+        imagenURL: "https://res.cloudinary.com/dyfyvybx4/image/upload/v1741023421/papeleria01_ybgmr1.png"
+    }
 ]

@@ -9,10 +9,10 @@ export const Navbar = () =>{
                 <img src="https://res.cloudinary.com/dyfyvybx4/image/upload/v1740760756/albuho_yzchfi.jpg" alt="" />
             </Link>
             <ul>
-                <li>Cuadernos</li>
-                <li>Lapiceros - Colores</li>
-                <li>Papeleria</li>
-                <li>Juegos - Juguetes</li>
+                <Link to="/category/cuaderno">Cuadernos</Link>
+                <Link to="/category/lapicero">Lapiceros</Link>
+                <Link to="/category/papeleria">Papeleria</Link>
+                <Link to="/category/juego">Juegos</Link>
             </ul>
             <Link to="/Cart"> <CartWidget /></Link>
         </nav>
